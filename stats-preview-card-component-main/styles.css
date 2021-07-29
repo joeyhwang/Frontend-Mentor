@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    
+    background-color: var(--very-dark-blue);
+    --very-dark-blue : hsl(233, 47%, 7%); 
+    --dark-desaturated-blue :  hsl(244, 38%, 16%); 
+    --soft-violet :   hsl(277, 68%, 34%); 
+    --white : hsl(0, 0%, 100%); 
+    --slightly-transparent-white-1 : hsla(0, 0%, 100%, 0.75); 
+    --slightly-transparent-white-2 :hsla(0, 0%, 100%, 0.6); 
+}
+
+body {
+
+    color: white;
+    font-family: Lexend Deca;
+}
+a {
+    color: white;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 0.25rem;
+}
+
+p {
+    color: var(--slightly-transparent-white-1);
+
+}
+
+.paragraphText {
+    margin-top: 2rem;
+
+}
+
+section {
+    padding: 12rem 0;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: min(90%, 70.5rem);
+    
+}
+
+.textContainer {
+    padding: 2rem 5rem;
+    max-width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color:var(--dark-desaturated-blue);
+    border-radius: 1rem 0 0 1rem;
+    
+}
+
+.imageContainer {
+    position: relative;
+    display: flex;
+    justify-content:center;
+    max-width: 31rem;
+    background-color: var(--soft-violet);
+    
+}
+
+.image {
+    max-width: 100%;
+    border-radius: 0 1rem 1rem 0;
+    opacity: 0.5;
+}
+
+.statsContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.attribution {
+    padding: 1rem 0rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+@media (max-width: 1000px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3{
+        font-size: 1.4rem;
+    }
+    
+    p {
+        font-size: 0.95rem;
+        color: var(--slightly-transparent-white-2);
+    }
+
+    .textContainer {
+        padding: 1rem 2rem;
+    }
+} 
+
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .textContainer {
+        padding: 3rem;
+        text-align: center;
+        border-radius: 0 0 1rem 1rem;
+    }
+
+    .statsContainer {
+        padding-top: 3rem;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .image {
+        border-radius: 1rem 1rem 0 0;
+    }
+
+    .stats {
+        margin-bottom: 2rem;
+    }
+
+    
+}
