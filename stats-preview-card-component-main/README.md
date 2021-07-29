@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://joeyhwang-stats-preview-card-component.netlify.app/)
+- Live Site URL: [https://joeyhwang-stats-preview-card-component.netlify.app/](https://joeyhwang-stats-preview-card-component.netlify.app/)
 
 ### Built with
 
