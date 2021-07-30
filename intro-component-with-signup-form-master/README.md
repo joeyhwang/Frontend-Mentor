@@ -25,7 +25,8 @@ Users should be able to:
   - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Looks like this is not an email"*
 
 ### Screenshot
-![image](https://user-images.githubusercontent.com/19678167/127582865-7d9619f9-60c2-49eb-a2cc-119caa8ea648.png)
+![image](https://user-images.githubusercontent.com/19678167/127592790-b22af207-c945-40c4-a944-53e19d9ab560.png)
+
 
 ### Links
 
