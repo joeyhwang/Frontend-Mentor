@@ -1,0 +1,138 @@
+:root {
+    --red-primary: hsl(0, 78%, 62% );
+    --cyan-primary: hsl(180, 62%, 55%);
+    --orange-primary: hsl(34, 97%, 64%);
+    --blue-primary: hsl(212, 86%, 64%);
+    --very-dark-blue-neutral: hsl(234, 12%, 34%);
+    --grayish-blue-neutral: hsl(229, 6%, 66%);
+    --very-light-gray: hsl(0, 0%, 98%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+p {
+    font-weight: 400;
+    color: var(--grayish-blue-neutral);    
+}
+
+.heading_paragraph {
+    padding: 0 1.2rem 0 1.2rem;
+}
+
+.container {
+    min-height: 80vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+.textContainer {
+    text-align: center;
+    margin-top: 4.5rem;
+    margin-bottom: 3.5rem;
+    max-width: 35rem; 
+}
+
+span {
+    display: block;
+    font-weight: 200;
+}
+
+.card_container {
+    flex-direction: column;
+    min-width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column_card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    position: relative;
+    padding: 02rem 2rem 2.5rem 2rem;
+    max-width: 20rem;
+    margin: 1rem 2rem 1rem 2rem;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px #d7e0ea;
+}
+
+.card_paragraph {
+    font-size: 0.9rem;
+    margin-bottom: 7rem;   
+}
+
+.card.border_red {
+    border-top: 5px solid var(--red-primary);
+}
+
+.card.border_blue {
+    border-top: 5px solid var(--blue-primary);
+}
+
+.card.border_cyan {
+    border-top: 5px solid var(--cyan-primary);
+}
+
+.card.border_orange {
+    border-top: 5px solid var(--orange-primary);
+}
+
+.image {
+    position: absolute;
+    right: 2rem;
+    bottom: 2rem;
+}
+
+.attribution { 
+    margin-top: 2rem;
+    font-size: 1rem; text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 56em) {
+    
+    .card_container {
+        flex-direction: row;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+    }
+    
+    h3 {
+        font-size: 1.3rem;
+    }
+ 
+    .heading_paragraph {
+        padding: 0rem;
+    }
+
+    .card {
+        margin: 1rem;
+    }
+}
+
