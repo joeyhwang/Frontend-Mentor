@@ -25,11 +25,11 @@ Users should be able to:
 	- The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`).
 
 ### Screenshot
-![image](https://user-images.githubusercontent.com/19678167/127787911-30fcd16d-fcf7-4529-a5cc-23a1345c5368.png)
+![image](https://user-images.githubusercontent.com/19678167/127789029-558c2b9e-62fa-4f2d-a5f0-32eef1a9f193.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/html-css-NxBTC0QXM](https://www.frontendmentor.io/solutions/html-css-NxBTC0QXM)
 - Live Site URL: [https://joeyhwang-ping-coming-soon-page.netlify.app/](https://joeyhwang-ping-coming-soon-page.netlify.app/)
 
 ### Built with
