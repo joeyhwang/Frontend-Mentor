@@ -24,7 +24,7 @@ Users should be able to:
 ![image](https://user-images.githubusercontent.com/19678167/127431774-93ea6be5-5f28-48c6-bdb9-e5cf0bd00942.png)
 
 ### Links
-
+- Solution URL: [https://www.frontendmentor.io/solutions/html-css-ILIiWA9XM](https://www.frontendmentor.io/solutions/html-css-ILIiWA9XM)
 - Live Site URL: [https://joeyhwang-stats-preview-card-component.netlify.app/](https://joeyhwang-stats-preview-card-component.netlify.app/)
 
 ### Built with
