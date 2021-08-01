@@ -41,8 +41,8 @@ body {
 h1 {
     font-size: 2.2rem;
     margin-bottom: 1rem;
+    line-height: 3.3rem;
 }
-
 form {
     display: flex;
     flex-direction: column;
@@ -160,6 +160,8 @@ section {
 @media (min-width: 56em) { 
     h1 {
         font-size: 3rem;
+
+        margin-bottom: 1.8rem;
     }
 
     section {
