@@ -1,0 +1,31 @@
+:root {
+  --main-bg-color-dark: hsl(230, 17%, 14%);
+  --main-bg-color-light:  hsl(0, 0%, 100%);
+  --main-font-color-dark: hsl(0, 0%, 100%);
+  --main-font-color-light: hsl(230, 17%, 14%);
+}
+
+.App {
+  text-align: center;
+}
+
+.attribution { 
+  margin-top: 3rem;
+  font-size: 11px; text-align: center; }
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+
+.App-header {
+  background-color:hsl(230, 17%, 14%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: var(--main-font-color-dark);
+}
+
+.App-header-light {
+  color: var(--main-font-color-light);
+}

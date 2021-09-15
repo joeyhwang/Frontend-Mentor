@@ -1,0 +1,38 @@
+.overview_container {
+    padding:1rem 10rem;
+    
+}
+
+.overview_title {
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.overview_cards_grid {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    
+}
+
+@media (max-width: 82rem) {
+    .overview_container {
+        padding:1rem 5rem;
+
+    }
+    .overview_cards_grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 50rem) {
+    .overview_container {
+        padding:1rem 2rem;
+
+    }
+    .overview_cards_grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

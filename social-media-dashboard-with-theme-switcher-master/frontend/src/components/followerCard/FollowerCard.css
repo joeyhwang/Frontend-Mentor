@@ -1,0 +1,103 @@
+:root {
+    --main-card-background-dark: hsl(228, 28%, 20%);
+    --main-card-desaturated-blue-text-dark: hsl(228, 34%, 66%);
+    --main-card-white-text-dark: hsl(0,0%,100%);
+
+    --main-card-background-light: hsl(227, 47%, 96%);
+    --main-card-dark-grayish-blue-text-light: hsl(228, 12%, 44%);
+    --main-card-very-dark-blue-text-light: hsl(230,17%,14%);
+
+    --main-red-down: hsl(356, 69%, 56%);
+    --main-green-up: hsl(163, 72%, 41%);
+}
+
+.follow_card_container {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--main-card-background-dark);
+    padding: 1.5rem 2rem;
+    padding-top: 2rem;
+    min-width: 10rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.follow_card_container.light {
+    background-color: var(--main-card-background-light);
+}
+
+.follow_card_container.light:hover {
+    background-color: #E1E3F0;
+}
+
+.follow_card_container:hover {
+    background-color: #333A56;
+}
+
+
+.follow_card_left_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start
+}
+
+.follow_card_left_container p {
+    font-size: 0.85rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    color:var(--main-card-desaturated-blue-text-dark);
+}
+
+
+.follow_card_left_container.light p {
+    color: hsl(228, 12%, 44%);
+}
+
+.follow_card_left_container h2 {
+    font-size: 1.9rem;
+}
+
+.follow_card_right_container {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: flex-end;
+}
+
+.follow_card_right_container img {
+    width:1.2rem;
+}
+
+.follow_card_change_container.up, .follow_card_change_container.down {
+    display: flex; 
+    align-items: center;
+    gap: 0.15rem;
+}
+
+.follow_card_change_container.up {
+    color: var(--main-green-up);
+}
+
+
+.follow_card_change_container.down {
+    color: var(--main-red-down);
+}
+
+.follow_card_change_container.up p, .follow_card_change_container.down p {
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.follow_card_change_container.up img, .follow_card_change_container.down img {
+    margin-top: 0.1rem;
+    width: 0.4rem;
+    height: 0.4rem;
+}
+
+@media (max-width: 82rem) {
+
+    
+    
+}

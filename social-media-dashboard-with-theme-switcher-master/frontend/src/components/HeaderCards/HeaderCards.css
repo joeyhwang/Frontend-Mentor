@@ -1,0 +1,36 @@
+:root {
+    --main-background-color-top-dark:hsl(232, 19%, 15%) ;
+    --main-background-color-dark :hsl(230, 17%, 14%);
+
+    --main-background-color-light:hsl(0, 0%, 100%) ;
+    --main-background-color-top-light: hsl(225, 100%, 98%); 
+}
+
+.header_cards_container {
+    padding: 2rem 10rem;
+    min-height: 25vh;
+    background-image: linear-gradient(to bottom, var(--main-background-color-top-dark) 50%, var(--main-background-color-dark) 50%, var(--main-background-color-dark));
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.header_cards_container.light {
+    background-image: linear-gradient(to bottom, var(--main-background-color-top-light) 50%, var(--main-background-color-light) 50%, var(--main-background-color-light));
+}
+
+@media (max-width: 82rem) {
+    .header_cards_container {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem 5rem;
+    }
+}
+@media (max-width: 50rem) {
+    .header_cards_container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 2rem 2rem;
+    }
+
+}
