@@ -1,0 +1,118 @@
+.profile_whole_container {
+    background:  hsl(235, 46%, 20%);
+    height: 100%;
+    border-radius: 15px;
+}
+
+.profile_top_container {
+    background: rgb(87,70,234);
+    border-radius: 15px;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+    padding: 2rem 2rem 5rem 2rem;
+    max-width: 12rem;
+}
+
+.profile_top_container img {
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 4.5rem;
+}
+
+.name_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.name_container p {
+    font-size: 2.5rem;
+    font-weight: 300
+}
+
+.name_container div {
+    font-size:0.95rem;
+    opacity: 0.6;
+}
+
+.period_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+    padding: 1rem 2rem;
+    height: 25%;
+}
+
+.period_container button {
+    text-decoration: none;
+    border: none;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.period_container button:hover, .opacityOne {
+    opacity: 1;
+}
+
+.period_container .opacityHalf {
+    opacity: 0.5;
+}
+
+
+@media (max-width: 56.25rem) { 
+    .profile_whole_container {
+        height: 100%;
+        width: 100%;
+    }
+    .profile_top_container {
+        height: auto;
+        flex-direction: row;
+        text-align: left;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 2rem 2rem 2rem;
+        width: auto;
+        max-width: none;
+    }
+
+
+    .name_container {
+        display: flex;
+        flex-direction: column;
+        gap:0.2rem;
+
+    }
+
+
+    .name_container p {
+        font-size: 1.4rem;
+        font-weight: 300;
+
+    }
+    
+    .name_container div {
+        font-size:0.85rem;
+        opacity: 0.6;
+    }
+
+    .period_container {
+        flex-direction: row;
+        text-align: left;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem 2rem;
+        height: auto;
+    }
+
+    .period_container button {
+        font-size: 1rem;
+    }
+
+}

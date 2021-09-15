@@ -1,0 +1,25 @@
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.8rem;
+}
+
+.profile_container {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+@media (max-width: 56.25rem) {
+    .grid_container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    
+    .profile_container {
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
+
+}
