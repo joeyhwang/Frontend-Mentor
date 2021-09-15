@@ -4,7 +4,7 @@ Hi I'm Joey and these are my Frontend Mentor solutions. Difficult (1-4) with 1 b
 
 | Challenge  | Difficulty (2) | Live Site | Repository |
 | ------------- | ------------- | ------------- | ------------- |
-| [Social Media Dashboard with Theme Switcher](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H) | 2 | [Live Site](https://jh-social-media-dashboard-with-theme-switcher.netlify.app/) | [Repository](https://github.com/joeyhwang/Frontend-Mentor/tree/main/social-media-dashboard-with-theme-switcher-master/frontend)
+| [Social Media Dashboard with Theme Switcher](https://www.frontendmentor.io/solutions/react-and-typescript--1ENG5X9z) | 2 | [Live Site](https://jh-social-media-dashboard-with-theme-switcher.netlify.app/) | [Repository](https://github.com/joeyhwang/Frontend-Mentor/tree/main/social-media-dashboard-with-theme-switcher-master/frontend)
 | [Time Tracking Dashboard](https://www.frontendmentor.io/solutions/react-and-typescript-EjuU2pcr-) | 2 | [Live Site](https://jh-time-tracking-dashboard.netlify.app/) | [Repository](https://github.com/joeyhwang/Frontend-Mentor/tree/main/time-tracking-dashboard-main/frontend)
 
 --------------------------
