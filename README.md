@@ -1,8 +1,15 @@
 # Frontend-Mentor
 
-Hi I'm Joey and these are my Frontend Mentor solutions
+Hi I'm Joey and these are my Frontend Mentor solutions. Difficult (1-4) with 1 being the easiest.
 
-| Challenge  | Difficulty (1-4) | Live Site | Repository |
+| Challenge  | Difficulty (2) | Live Site | Repository |
+| ------------- | ------------- | ------------- | ------------- |
+| [Social Media Dashboard with Theme Switcher](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H) | 2 | [Live Site](https://jh-social-media-dashboard-with-theme-switcher.netlify.app/) | [Repository](https://github.com/joeyhwang/Frontend-Mentor/tree/main/social-media-dashboard-with-theme-switcher-master/frontend)
+| [Time Tracking Dashboard](https://www.frontendmentor.io/solutions/react-and-typescript-EjuU2pcr-) | 2 | [Live Site](https://jh-time-tracking-dashboard.netlify.app/) | [Repository](https://github.com/joeyhwang/Frontend-Mentor/tree/main/time-tracking-dashboard-main/frontend)
+
+--------------------------
+
+| Challenge  | Difficulty (1) | Live Site | Repository |
 | ------------- | ------------- | ------------- | ------------- |
 | [Four-Card-Feature-Section](https://www.frontendmentor.io/solutions/html-css-s2AemniSW) | 1 | [Live Site](https://joeyhwang-four-card-feature-section.netlify.app/) | [Repository](https://github.com/joeyhwang/Frontend-Mentor/tree/main/four-card-feature-section-master)
 | [Intro-Component-With-Sign-Up-Form](https://www.frontendmentor.io/solutions/html-css-javascript-WG814HIGh) | 1  | [Live Site](https://joey-hwang-intro-component-with-signup-form.netlify.app/) | [Repository](https://github.com/joeyhwang/Frontend-Mentor/tree/main/intro-component-with-signup-form-master) |
